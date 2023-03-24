@@ -8,5 +8,10 @@ export default {
       type: 'string',
       title: 'Event Group Name',
     },
+    {
+      name: 'description',
+      type: 'richText',
+      title: 'Description',
+    },
   ],
 }
