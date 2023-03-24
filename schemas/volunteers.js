@@ -1,3 +1,5 @@
+import images from './images'
+
 export default {
   name: 'volunteers',
   type: 'document',
@@ -42,6 +44,11 @@ export default {
       name: 'email',
       type: 'string',
       title: 'Email Address',
+    },
+    {
+      name: 'images',
+      type: 'images',
+      title: 'Image of Volunteer',
     },
   ],
 }
