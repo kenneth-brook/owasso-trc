@@ -5,5 +5,15 @@ import group from './group'
 import events from './events'
 import levels from './levels'
 import richText from './richText'
+import sponsors from './sponsors'
 
-export const schemaTypes = [trc_general_info, volunteers, images, group, events, levels, richText]
+export const schemaTypes = [
+  trc_general_info,
+  volunteers,
+  images,
+  group,
+  events,
+  levels,
+  richText,
+  sponsors,
+]
